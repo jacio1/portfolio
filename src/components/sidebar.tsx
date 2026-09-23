@@ -25,7 +25,7 @@ export default function Sidebar() {
   const t = useTranslations("Sidebar");
 
   return (
-    <div className="bg-sidebar flex flex-col px-36">
+    <div className="bg-sidebar flex flex-col justify-around px-36">
       <h1 className="uppercase text-[55px] text-accent pt-9.75">jacio1</h1>
       <div>
         <ul className="uppercase font-bold text-xl flex flex-col gap-7.5 pt-37.5 pb-68.75">

@@ -22,6 +22,7 @@ export function LocaleSwitcher() {
           <li key={code}>
             <button
               type="button"
+              className="rounded-xs"
               aria-current={isActive ? "true" : undefined}
               disabled={isPending}
               onClick={() => {
@@ -30,12 +31,7 @@ export function LocaleSwitcher() {
                 });
               }}
             >
-              <Image
-                src={flag}
-                alt={label}
-                width={35}
-                height={35}
-              />
+              <Image  src={flag} alt={label} width={35} height={35} className="object-contain"/>
             </button>
           </li>
         );
