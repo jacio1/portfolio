@@ -1,4 +1,11 @@
 {
+  "Sidebar": {
+    "home": "Home",
+    "about": "About Me",
+    "portfolio": "Portfolio",
+    "education": "Education",
+    "contact": "Contact"
+  },
   "HomePage": {
     "title": "Hello world!"
   }

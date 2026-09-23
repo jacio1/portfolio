@@ -1,4 +1,12 @@
 {
+  "Sidebar": {
+    "home": "Главная",
+    "about": "Обо мне",
+    "portfolio": "Портфолио",
+    "education": "Образование",
+    "contact": "Контакты"
+  },
+
   "HomePage": {
     "title": "Привет!"
   }
