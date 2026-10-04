@@ -1,7 +1,10 @@
 import { useTranslations } from "next-intl";
+interface pageTranslation {
+    page: 'AboutPage' | 'ContactPage' | "PortfolioPage" | "EducationPage"
+}
 
-export default function AboutHeader() {
-  const t = useTranslations("AboutPage");
+export default function PageHeader({page}: pageTranslation) {
+  const t = useTranslations(page);
   return (
     <div>
       <h1 className="text-[50px]">{t("title")}</h1>
