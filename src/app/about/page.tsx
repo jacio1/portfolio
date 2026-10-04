@@ -4,7 +4,7 @@ import AboutMain from "./_components/AboutMain";
 
 export default function AboutPage() {
   return (
-    <div className="container">
+    <div>
       <PageHeader page="AboutPage" />
       <AboutMain />
       <AboutFooter />
