@@ -6,7 +6,11 @@
     "education": "Ausbildung",
     "contact": "Kontakt"
   },
-  "HomePage": {
-    "title": "Hallo Welt!"
+  "AboutPage": {
+    "title": "Обо мне",
+    "name": "Вячеслав Гоглев",
+    "download": "Скачать резюме",
+    "hire": "Написать мне",
+    "stack": "Мой стек"
   }
 }

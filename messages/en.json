@@ -8,5 +8,12 @@
   },
   "HomePage": {
     "title": "Hello world!"
+  },
+  "AboutPage": {
+    "title": "Обо мне",
+    "name": "Вячеслав Гоглев",
+    "download": "Скачать резюме",
+    "hire": "Написать мне",
+    "stack": "Мой стек"
   }
 }

@@ -25,12 +25,39 @@ export default function Sidebar() {
   const t = useTranslations("Sidebar");
 
   return (
-    <div className="bg-sidebar flex flex-col justify-around px-36">
-      <h1 className="uppercase text-[55px] text-accent pt-9.75">jacio1</h1>
-      <div>
-        <ul className="uppercase font-bold text-xl flex flex-col gap-7.5 pt-37.5 pb-68.75">
+    <aside
+      className="
+        bg-sidebar
+        flex flex-col justify-around
+        w-64
+        lg:w-72
+        xl:w-80
+        2xl:w-96
+        px-6
+        lg:px-10
+        xl:px-14
+        2xl:px-20
+        shrink-0
+      "
+    >
+      <h1 className="uppercase text-4xl lg:text-5xl xl:text-[55px] text-accent pt-6">
+        jacio1
+      </h1>
+
+      <nav>
+        <ul
+          className="
+            uppercase font-bold
+            text-base lg:text-lg xl:text-xl
+            flex flex-col
+            gap-5 lg:gap-6 xl:gap-7.5
+            pt-20 lg:pt-28 xl:pt-37.5
+            pb-32 lg:pb-48 xl:pb-68.75
+          "
+        >
           {links.map(({ href, key }) => {
             const isActive = pathname === href;
+
             return (
               <li key={key}>
                 <Link href={href} className={isActive ? "text-accent" : ""}>
@@ -42,9 +69,10 @@ export default function Sidebar() {
             );
           })}
         </ul>
-      </div>
-      <div className="flex flex-col items-center gap-7.5">
-        <ul className="flex gap-7.5">
+      </nav>
+
+      <div className="flex flex-col items-center gap-5 lg:gap-6 xl:gap-7.5">
+        <ul className="flex gap-5 lg:gap-6 xl:gap-7.5">
           {socials.map(({ href, alt, src }) => (
             <li key={alt}>
               <Link href={href} target="_blank">
@@ -53,8 +81,9 @@ export default function Sidebar() {
             </li>
           ))}
         </ul>
+
         <LocaleSwitcher />
       </div>
-    </div>
+    </aside>
   );
 }
