@@ -1,8 +1,9 @@
+import PageHeader from "@/src/components/PageHeader";
+
 export default function ContactPage() {
   return (
     <div>
-      <h1>Contact</h1>
-      
+      <PageHeader page="ContactPage" />
     </div>
   );
 }

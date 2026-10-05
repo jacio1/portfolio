@@ -4,5 +4,5 @@ interface ButtonProps {
 }
 
 export default function Button({ children, variant = "primary" }: ButtonProps) {
-  return <button className={`btn btn-${variant}`}>{children}</button>;
+  return <button className={`bg-accent text-black rounded-[11px] min-w-53.5 min-h-14.5 btn-${variant}`}>{children}</button>;
 }

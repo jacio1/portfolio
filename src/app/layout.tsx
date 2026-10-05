@@ -19,10 +19,14 @@ export default async function RootLayout({ children }: LayoutProps<"/">) {
   const locale = await getLocale();
   return (
     <html lang={locale} className={`${oswald.variable} h-full antialiased`}>
-      <body className="min-h-full flex container gap-25">
+      <body className="min-h-full flex gap-25">
         <NextIntlClientProvider>
           <Sidebar />
-          {children}
+          <main className="flex-1 flex justify-center px-4">
+            <div className="w-full max-w-[1200px]">
+              {children}
+            </div>
+          </main>
         </NextIntlClientProvider>
       </body>
     </html>
