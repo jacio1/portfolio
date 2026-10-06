@@ -26,7 +26,7 @@ export default function PortfolioPage() {
     <div>
       <PageHeader page="PortfolioPage" />
       <div>
-        <ul className="flex gap-7.5 flex-wrap">
+        <ul className="flex gap-7.5 flex-wrap justify-center">
           {projects.map((project) => (
             <li className="w-75 h-75 bg-blue-400" key={project.id}>
               <h1>{project.img}</h1>

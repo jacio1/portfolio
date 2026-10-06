@@ -11,11 +11,20 @@
     "title": "Привет!"
   },
 
-  "AboutPage":{
+  "AboutPage": {
     "title": "Обо мне",
     "name": "Вячеслав Гоглев",
     "download": "Скачать резюме",
     "hire": "Написать мне",
     "stack": "Мой стек"
+  },
+  "PortfolioPage": {
+    "title": "Портфолио"
+  },
+  "EducationPage": {
+    "title": "Образование"
+  },
+  "ContactPage": {
+    "title": "Контакты"
   }
 }
