@@ -37,7 +37,7 @@ export function LocaleSwitcher() {
                 alt={label}
                 width={35}
                 height={35}
-                className="object-contain"
+                className="object-contain w-8.75 h-8.75"
               />
             </button>
           </li>

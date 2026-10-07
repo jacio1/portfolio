@@ -1,19 +1,65 @@
 {
   "Sidebar": {
-    "home": "Home",
-    "about": "About Me",
+    "about": "About me",
     "portfolio": "Portfolio",
     "education": "Education",
-    "contact": "Contact"
+    "contact": "Contacts"
   },
-  "HomePage": {
-    "title": "Hello world!"
-  },
+
   "AboutPage": {
-    "title": "Обо мне",
-    "name": "Вячеслав Гоглев",
-    "download": "Скачать резюме",
-    "hire": "Написать мне",
-    "stack": "Мой стек"
+    "title": "About me",
+    "titleText": "I am a frontend developer who loves turning complex designs into fast, responsive and user-friendly interfaces. Details matter to me — performance, accessibility, clean code — they are what make a product pleasant to use.",
+    "name": "Vyacheslav Goglev",
+    "aboutText": "Over the past few years I have been developing web applications and landing pages for startups and small teams. From the first markup to deployment and optimisation — I take part in every stage and enjoy working closely with designers. My toolkit includes JavaScript, TypeScript, React, Next.js and Tailwind CSS. I am also confident working with REST APIs, Git and modern build tools.",
+    "download": "Download CV",
+    "hire": "Write to me",
+    "stack": "My stack"
+  },
+  "PortfolioPage": {
+    "title": "Portfolio",
+    "titleText": "A collection of projects I've worked on: from landing pages and dashboards to small web apps. Each project is a real task that had to be solved cleanly, quickly, and conveniently for the user.",
+    "demo": "Demo",
+    "code": "Code",
+    "items": {
+      "shoesShop": {
+        "title": "Shoes Shop",
+        "description": "An online store with a catalog, cart, and checkout. Frontend built with Next.js and Redux, backend with NestJS."
+      },
+      "studyBuddyApp": {
+        "title": "Study Buddy",
+        "description": "An app for collaborative studying: flashcards, timers, and progress tracking. Auth and database powered by Supabase."
+      },
+      "myBonchApp": {
+        "title": "MyBonch",
+        "description": "A mobile web app for students: schedule, grades, and notifications all in one place."
+      }
+    }
+  },
+  "EducationPage": {
+    "title": "Education",
+    "titleText": "My path in information systems and technologies — from bachelor's to master's degree.",
+    "items": {
+      "bachelor": {
+        "title": "Bachelor's degree · Information Systems and Technologies",
+        "place": "Bonch-Bruevich Saint Petersburg State University of Telecommunications",
+        "period": "2022 — 2026",
+        "description": "I studied programming, databases, web technologies and information systems design. I mastered the fundamentals of frontend development, algorithms and data structures, and worked on academic and team projects."
+      },
+      "master": {
+        "title": "Master's degree · Information Systems and Technologies",
+        "place": "Bonch-Bruevich Saint Petersburg State University of Telecommunications",
+        "period": "2026 — 2028",
+        "description": "Advanced study of information systems: software architecture, web application development, project management and modern frontend and backend technologies. Research work and practical projects in the field."
+      }
+    }
+  },
+  "ContactPage": {
+    "title": "Contacts",
+    "titleText": "If you have a project, an idea or just a question — write to me. I am open to freelance, internships and full-time offers. I reply within 24 hours.",
+    "writeMe": "Contact me",
+    "getIn": "Get in touch",
+    "name": "Name",
+    "subject": "Subject",
+    "message": "Message"
   }
 }

@@ -4,7 +4,7 @@ import AboutMain from "./_components/AboutMain";
 
 export default function AboutPage() {
   return (
-    <div className="pt-8 px-4 mx-auto w-full ">
+    <div >
       <PageHeader page="AboutPage" />
       <AboutMain />
       <AboutFooter />

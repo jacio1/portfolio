@@ -6,13 +6,12 @@ interface pageTranslation {
 export default function PageHeader({ page }: pageTranslation) {
   const t = useTranslations(page);
   return (
-    <div className="flex flex-col justify-center items-center">
-      <h1 className="uppercase text-[50px]">{t("title")}</h1>
-      <p className="text-2xl text-center max-w-201.75">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus autem
-        eum, rem repellat voluptatibus omnis animi natus, debitis sunt alias
-        reiciendis, labore nulla aspernatur quas neque facilis tempore saepe
-        architecto.
+    <div className="flex flex-col justify-center items-center gap-2  min-[1300px]:pt-0">
+      <h1 className="uppercase text-center text-[32px] sm:text-[40px] md:text-[50px] leading-tight">
+        {t("title")}
+      </h1>
+      <p className="text-base md:text-2xl text-center max-w-201.75">
+        {t("titleText")}
       </p>
     </div>
   );

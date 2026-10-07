@@ -22,11 +22,18 @@
   }
 }
 
+
 body {
   background: var(--background);
   color: var(--foreground);
+  min-height: 100dvh;
 }
 
-button{
+button {
   cursor: pointer;
+}
+
+html,
+body {
+  transition: background-color 300ms ease-out;
 }
